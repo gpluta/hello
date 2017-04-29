@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/gpluta/stringutil"
 )
 
 func main() {
-	fmt.Printf("Hello!\n")
+	fmt.Printf(stringutil.Reverse("!!olleH"))
 }
